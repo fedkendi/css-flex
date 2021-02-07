@@ -1,0 +1,77 @@
+body {
+  background-color: white;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 70%;
+  margin: 0 auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px;
+}
+
+.container h1 {
+  color: black;
+  width: 290px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.container article {
+  border: 1px solid #ccc;
+}
+
+.container .article__block {
+  position: relative;
+}
+
+.container .article__block .item {
+  background: #47ccff;
+  margin: 15px;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.container .article__flex {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 290px;
+}
+
+.container .article__flex .item {
+  background: #47ccff;
+  margin: 15px;
+  text-align: center;
+  font-size: 1.8em;
+  height: 30px;
+  width: 18px;
+}
+
+.container .article__flex_2 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 360px;
+}
+
+.container .article__flex_2 .item {
+  background: #47ccff;
+  margin: 15px;
+  text-align: center;
+  font-size: 1.8em;
+  height: 30px;
+}
+/*# sourceMappingURL=exemplo-cssflex.css.map */
