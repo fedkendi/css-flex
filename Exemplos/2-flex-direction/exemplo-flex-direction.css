@@ -1,0 +1,61 @@
+@charset "UTF-8";
+h1 {
+  text-align: center;
+  margin: 20px 0 0 0;
+  font-size: 1.25em;
+}
+
+body {
+  font-family: monospace;
+  color: #333;
+}
+
+.row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.row-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.column-reverse {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #ccc;
+}
+
+.container .item {
+  /* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 5px;
+  background: #47ccff;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 2rem;
+}
+/*# sourceMappingURL=exemplo-flex-direction.css.map */
