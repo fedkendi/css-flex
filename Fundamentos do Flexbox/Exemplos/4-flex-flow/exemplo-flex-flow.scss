@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.25em;
+}
+body {
+    font-family: monospace;
+    color: #333;
+}
+.row-nowrap {
+    flex-flow: row nowrap;
+}
+.row-wrap {
+    flex-flow: row wrap;
+}
+.column-nowrap {
+    flex-flow: column nowrap;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #ccc;
+    .item {
+        /* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+        flex: 1;
+        margin: 5px;
+        background: #47ccff;
+        text-align: center;
+        font-size: 1.5em;
+        padding: 1rem;
+    }
+}
