@@ -1,0 +1,51 @@
+@charset "UTF-8";
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #ccc;
+}
+
+.container .item {
+  margin: 5px;
+  background: #47ccff;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0 0 0;
+  font-size: 1.25em;
+  font-weight: normal;
+}
+
+body {
+  font-family: monospace;
+  color: #333;
+}
+
+/* Os itens não se expandem para ocupar o container. */
+.grow0 {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+/* Os itens se expandem igualmente para ocupar o container. Utilizando apenas o flex-grow, 
+o crescimento é distribuído igualmente antes e depois do conteúdo de cada elemento. (pois por padrão o flex-basis é auto) */
+.grow1 {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+/* Os itens se expandem duas vezes mais que aqueles com flex-grow: 1; */
+.grow2 {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+/*# sourceMappingURL=flex-grow.css.map */
