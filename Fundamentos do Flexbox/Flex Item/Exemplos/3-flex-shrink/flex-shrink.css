@@ -1,0 +1,79 @@
+body {
+  font-family: monospace;
+  color: #333;
+}
+
+body h1 {
+  text-align: center;
+  margin: 20px 0 0 0;
+  font-size: 1.25em;
+  font-weight: normal;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #ccc;
+}
+
+.container .item {
+  margin: 5px;
+  background: #47ccff;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.container .shrink-1 {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+}
+
+.container .shrink-3 {
+  -webkit-box-flex: 3;
+      -ms-flex-positive: 3;
+          flex-grow: 3;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+}
+
+.container .shrink-1-basis {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -ms-flex-preferred-size: 150px;
+      flex-basis: 150px;
+}
+
+.container .shrink-0-basis {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: 150px;
+      flex-basis: 150px;
+}
+
+.container .shrink-3-basis {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 3;
+      flex-shrink: 3;
+  -ms-flex-preferred-size: 150px;
+      flex-basis: 150px;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=flex-shrink.css.map */
