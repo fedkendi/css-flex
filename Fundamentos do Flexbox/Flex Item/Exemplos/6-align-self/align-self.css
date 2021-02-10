@@ -1,0 +1,76 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #ccc;
+}
+
+.container .item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 5px;
+  padding: 0 5px;
+  background: #47ccff;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.container .item:first-child {
+  padding-top: 20px;
+}
+
+body {
+  font-family: monospace;
+  color: #333;
+}
+
+body h1 {
+  text-align: center;
+  margin: 20px 0 0 0;
+  font-size: 1.25em;
+  font-weight: normal;
+}
+
+.flex-end {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.flex-start {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.center {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.baseline {
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+}
+
+.stretch {
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+}
+
+.align-items {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=align-self.css.map */
